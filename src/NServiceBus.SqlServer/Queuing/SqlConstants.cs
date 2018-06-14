@@ -109,9 +109,7 @@ IF (@NOCOUNT = 'OFF') SET NOCOUNT OFF;";
 
         public static readonly string PeekText = @"
 SELECT count(*) Id
-FROM {0} WITH (READPAST)
-WHERE Expires IS NULL
-    OR Expires > GETUTCDATE();";
+FROM {0} WITH (READPAST);";
 
         public static readonly string CreateQueueText = @"
 IF EXISTS (
