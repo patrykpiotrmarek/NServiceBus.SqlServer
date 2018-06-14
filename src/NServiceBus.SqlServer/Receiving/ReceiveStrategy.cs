@@ -52,6 +52,10 @@
 
         protected async Task<bool> TryProcessingMessage(Message message, TransportTransaction transportTransaction)
         {
+            if (message.Expired) //Do not process expired messages
+            {
+                return true;
+            }
             using (var pushCancellationTokenSource = new CancellationTokenSource())
             {
                 var messageContext = new MessageContext(message.TransportId, message.Headers, message.Body, transportTransaction, pushCancellationTokenSource, new ContextBag());
