@@ -1,9 +1,9 @@
-﻿namespace NServiceBus.SqlServer.AcceptanceTests
+﻿namespace NServiceBus_6.SqlServer.AcceptanceTests
 {
     using System.Threading.Tasks;
     using AcceptanceTesting;
-    using NServiceBus.AcceptanceTests;
-    using NServiceBus.AcceptanceTests.EndpointTemplates;
+    using NServiceBus_6.AcceptanceTests;
+    using NServiceBus_6.AcceptanceTests.EndpointTemplates;
     using NUnit.Framework;
 
     public class When_using_special_characters_in_endpoint_name : NServiceBusAcceptanceTest

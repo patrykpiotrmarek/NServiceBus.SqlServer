@@ -1,4 +1,4 @@
-﻿namespace NServiceBus.SqlServer.AcceptanceTests.Configuration
+﻿namespace NServiceBus_6.SqlServer.AcceptanceTests.Configuration
 {
     using System;
     using System.Configuration;

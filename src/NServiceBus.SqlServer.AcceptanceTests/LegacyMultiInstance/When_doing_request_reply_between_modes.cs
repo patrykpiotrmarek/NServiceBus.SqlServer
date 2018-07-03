@@ -1,11 +1,11 @@
-﻿namespace NServiceBus.SqlServer.AcceptanceTests.LegacyMultiInstance
+﻿namespace NServiceBus_6.SqlServer.AcceptanceTests.LegacyMultiInstance
 {
     using System.Data.SqlClient;
     using System.Threading.Tasks;
     using AcceptanceTesting;
     using AcceptanceTesting.Customization;
-    using NServiceBus.AcceptanceTests;
-    using NServiceBus.AcceptanceTests.EndpointTemplates;
+    using NServiceBus_6.AcceptanceTests;
+    using NServiceBus_6.AcceptanceTests.EndpointTemplates;
     using NUnit.Framework;
     using Transport.SQLServer;
 

@@ -1,10 +1,10 @@
-﻿namespace NServiceBus.SqlServer.AcceptanceTests.TransactionScope
+﻿namespace NServiceBus_6.SqlServer.AcceptanceTests.TransactionScope
 {
     using System;
     using System.Configuration;
     using AcceptanceTesting;
-    using NServiceBus.AcceptanceTests;
-    using NServiceBus.AcceptanceTests.EndpointTemplates;
+    using NServiceBus_6.AcceptanceTests;
+    using NServiceBus_6.AcceptanceTests.EndpointTemplates;
     using NUnit.Framework;
     using Transport.SQLServer;
 

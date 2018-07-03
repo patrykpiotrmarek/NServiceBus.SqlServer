@@ -1,11 +1,11 @@
-﻿namespace NServiceBus.SqlServer.AcceptanceTests
+﻿namespace NServiceBus_6.SqlServer.AcceptanceTests
 {
     using System;
     using System.Threading.Tasks;
     using AcceptanceTesting;
     using AcceptanceTesting.Customization;
-    using NServiceBus.AcceptanceTests;
-    using NServiceBus.AcceptanceTests.EndpointTemplates;
+    using NServiceBus_6.AcceptanceTests;
+    using NServiceBus_6.AcceptanceTests.EndpointTemplates;
     using NUnit.Framework;
 
     public class When_the_message_contains_a_legacy_callback_header : NServiceBusAcceptanceTest

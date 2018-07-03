@@ -4,10 +4,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="NServiceBus" Version="6.3.4" />
-    <PackageReference Include="NServiceBus.AcceptanceTesting" Version="6.3.4" />
-    <PackageReference Include="NServiceBus.AcceptanceTests.Sources" Version="6.3.4" />
+    <PackageReference Include="NServiceBus_6" Version="6.4.4" />
+    <PackageReference Include="NServiceBus_6.AcceptanceTesting" Version="6.4.4" />
+    <PackageReference Include="NServiceBus_6.AcceptanceTests.Sources" Version="6.4.4" />
     <PackageReference Include="NUnit" Version="3.6.1" />
     <ProjectReference Include="..\NServiceBus.SqlServer\NServiceBus.SqlServer.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Service Include="{82a7f48d-3b50-4b1e-b82e-3ada8210c358}" />
   </ItemGroup>
 </Project>

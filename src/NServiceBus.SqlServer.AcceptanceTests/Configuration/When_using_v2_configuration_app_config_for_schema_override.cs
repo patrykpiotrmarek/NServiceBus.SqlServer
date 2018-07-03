@@ -1,12 +1,12 @@
-﻿namespace NServiceBus.SqlServer.AcceptanceTests.Configuration
+﻿namespace NServiceBus_6.SqlServer.AcceptanceTests.Configuration
 {
     using System;
     using System.IO;
     using System.Threading.Tasks;
     using AcceptanceTesting;
-    using NServiceBus.AcceptanceTests;
-    using NServiceBus.AcceptanceTests.EndpointTemplates;
-    using NServiceBus.Configuration.AdvanceExtensibility;
+    using NServiceBus_6.AcceptanceTests;
+    using NServiceBus_6.AcceptanceTests.EndpointTemplates;
+    using NServiceBus_6.Configuration.AdvanceExtensibility;
     using NUnit.Framework;
 
     public class When_using_v2_configuration_app_config_for_schema_override : NServiceBusAcceptanceTest

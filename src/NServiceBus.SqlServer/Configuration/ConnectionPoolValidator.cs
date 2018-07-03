@@ -1,4 +1,4 @@
-﻿namespace NServiceBus.Transport.SQLServer
+﻿namespace NServiceBus_6.Transport.SQLServer
 {
     using System.Data.Common;
     using System.Data.SqlClient;

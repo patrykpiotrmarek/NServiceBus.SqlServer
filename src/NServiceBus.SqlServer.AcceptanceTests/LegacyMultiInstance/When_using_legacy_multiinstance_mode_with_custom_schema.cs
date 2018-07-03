@@ -1,4 +1,4 @@
-﻿namespace NServiceBus.SqlServer.AcceptanceTests.LegacyMultiInstance
+﻿namespace NServiceBus_6.SqlServer.AcceptanceTests.LegacyMultiInstance
 {
     using System.Threading.Tasks;
     using AcceptanceTesting;

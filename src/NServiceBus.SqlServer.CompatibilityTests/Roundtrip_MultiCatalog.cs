@@ -1,6 +1,6 @@
 ﻿// ReSharper disable InconsistentNaming
 
-namespace NServiceBus.SqlServer.CompatibilityTests
+namespace NServiceBus_6.SqlServer.CompatibilityTests
 {
     using System;
     using System.Collections.Generic;

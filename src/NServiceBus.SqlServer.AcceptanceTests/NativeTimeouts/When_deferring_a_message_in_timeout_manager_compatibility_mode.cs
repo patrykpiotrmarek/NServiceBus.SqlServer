@@ -1,4 +1,4 @@
-﻿namespace NServiceBus.AcceptanceTests.NativeTimeouts
+﻿namespace NServiceBus_6.AcceptanceTests.NativeTimeouts
 {
     using System;
     using System.Threading.Tasks;

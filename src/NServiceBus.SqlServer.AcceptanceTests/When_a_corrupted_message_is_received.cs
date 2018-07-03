@@ -1,4 +1,4 @@
-﻿namespace NServiceBus.SqlServer.AcceptanceTests
+﻿namespace NServiceBus_6.SqlServer.AcceptanceTests
 {
     using System;
     using System.Data;
@@ -9,8 +9,8 @@
     using AcceptanceTesting;
     using AcceptanceTesting.Customization;
     using Logging;
-    using NServiceBus.AcceptanceTests;
-    using NServiceBus.AcceptanceTests.EndpointTemplates;
+    using NServiceBus_6.AcceptanceTests;
+    using NServiceBus_6.AcceptanceTests.EndpointTemplates;
     using NUnit.Framework;
 
     public class When_a_corrupted_message_is_received : NServiceBusAcceptanceTest

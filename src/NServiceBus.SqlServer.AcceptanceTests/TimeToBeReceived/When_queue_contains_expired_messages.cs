@@ -1,13 +1,13 @@
-﻿namespace NServiceBus.SqlServer.AcceptanceTests.TimeToBeReceived
+﻿namespace NServiceBus_6.SqlServer.AcceptanceTests.TimeToBeReceived
 {
     using System;
     using System.Data.SqlClient;
     using System.Threading.Tasks;
     using AcceptanceTesting;
     using AcceptanceTesting.Customization;
-    using NServiceBus.AcceptanceTests;
-    using NServiceBus.AcceptanceTests.EndpointTemplates;
-    using NServiceBus.Configuration.AdvanceExtensibility;
+    using NServiceBus_6.AcceptanceTests;
+    using NServiceBus_6.AcceptanceTests.EndpointTemplates;
+    using NServiceBus_6.Configuration.AdvanceExtensibility;
     using NUnit.Framework;
 
     public class When_queue_contains_expired_messages : NServiceBusAcceptanceTest

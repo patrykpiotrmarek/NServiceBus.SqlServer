@@ -1,4 +1,4 @@
-namespace NServiceBus.AcceptanceTests
+namespace NServiceBus_6.AcceptanceTests
 {
     using AcceptanceTesting.Support;
 

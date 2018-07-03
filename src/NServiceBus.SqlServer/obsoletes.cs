@@ -1,7 +1,7 @@
 ﻿
 #pragma warning disable 1591
 
-namespace NServiceBus.Transport.SQLServer
+namespace NServiceBus_6.Transport.SQLServer
 {
     using System;
     using System.Collections.Generic;
@@ -59,7 +59,7 @@ namespace NServiceBus.Transport.SQLServer
     }
 }
 
-namespace NServiceBus.Transport.SQLServer.ConnectionStrings
+namespace NServiceBus_6.Transport.SQLServer.ConnectionStrings
 {
     using System;
 

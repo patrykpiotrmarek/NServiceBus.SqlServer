@@ -1,4 +1,4 @@
-﻿namespace NServiceBus.SqlServer.CompatibilityTests
+﻿namespace NServiceBus_6.SqlServer.CompatibilityTests
 {
     public static class ConnectionStrings
     {

@@ -2,11 +2,11 @@
 using System.Data.SqlClient;
 using System.Linq;
 using System.Threading.Tasks;
-using NServiceBus;
-using NServiceBus.Settings;
-using NServiceBus.Transport;
-using NServiceBus.Transport.SQLServer;
-using NServiceBus.TransportTests;
+using NServiceBus_6;
+using NServiceBus_6.Settings;
+using NServiceBus_6.Transport;
+using NServiceBus_6.Transport.SQLServer;
+using NServiceBus_6.TransportTests;
 
 public class ConfigureSqlServerTransportInfrastructure : IConfigureTransportInfrastructure
 {

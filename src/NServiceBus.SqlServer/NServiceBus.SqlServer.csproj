@@ -2,16 +2,16 @@
 
   <PropertyGroup>
     <TargetFrameworks>net452</TargetFrameworks>
-    <RootNamespace>NServiceBus.SqlServer</RootNamespace>
-    <AssemblyName>NServiceBus.Transport.SqlServer</AssemblyName>
+    <RootNamespace>NServiceBus_6.SqlServer</RootNamespace>
+    <AssemblyName>NServiceBus_6.Transport.SqlServer</AssemblyName>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>..\NServiceBus.snk</AssemblyOriginatorKeyFile>
     <OutputPath>..\..\binaries\</OutputPath>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
-    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <UpdateAssemblyInfo>true</UpdateAssemblyInfo>
-    <PackageId>NServiceBus.SqlServer</PackageId>
+    <PackageId>NServiceBus_6.SqlServer</PackageId>
   </PropertyGroup>
 
   <ItemGroup>
@@ -23,7 +23,7 @@
     <PackageReference Include="Janitor.Fody" Version="1.4.1" PrivateAssets="All" />
     <PackageReference Include="Obsolete.Fody" Version="4.2.2" PrivateAssets="All" />
     <PackageReference Include="Particular.CodeRules" Version="0.2.0" PrivateAssets="All" />
-    <PackageReference Include="NServiceBus" Version="6.0.0" PrivateAssets="All" />
+    <PackageReference Include="NServiceBus_6" Version="6.4.4" PrivateAssets="All" />
     <PackageReference Include="GitVersionTask" Version="4.0.0-beta0011" />
     <PackageReference Include="NuGetPackager" Version="0.6.5" />
     <Reference Include="System.Web.Services" />

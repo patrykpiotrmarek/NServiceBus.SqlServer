@@ -1,8 +1,8 @@
-﻿namespace NServiceBus.SqlServer.AcceptanceTests.MultiSchema
+﻿namespace NServiceBus_6.SqlServer.AcceptanceTests.MultiSchema
 {
     using System.Threading.Tasks;
     using AcceptanceTesting;
-    using NServiceBus.AcceptanceTests.EndpointTemplates;
+    using NServiceBus_6.AcceptanceTests.EndpointTemplates;
     using NUnit.Framework;
     using Transport.SQLServer;
     using static AcceptanceTesting.Customization.Conventions;
